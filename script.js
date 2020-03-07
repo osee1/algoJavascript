@@ -90,11 +90,7 @@ console.log(toutLesAdresseMailsPrive);
 
 let listeMotIgnore = ['le', 'la', 'les', 'des', 'du', 'un', 'une', '+243', '@', 'je', 'tu', 'il', 'elle', 'nous', 'vous', 'elles', 'ils', 'à', 'qui'];
 
-// for(motAignore of listeMotIgnore){
-//     phrase = phrase.filter((mot)=>{
-//         return !mot.includes(motAignore);
-//     });
-// }
+
 for(let i = 0; i < listeMotIgnore.length; i++){
     phrase = phrase.filter((mot)=>{
         return !mot.includes(listeMotIgnore[i]);
